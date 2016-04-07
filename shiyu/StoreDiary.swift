@@ -14,9 +14,16 @@ extension String {
         
         var writeString: String = ""
         
-        for index in 0...diarys.count-1 {
-            writeString += diarys[index].title + "#" + diarys[index].content + "#" + diarys[index].date + "@"
+        if diarys.count == 0 {
+            writeString = ""
+        } else{
+            for index in 0...diarys.count-1 {
+                writeString += diarys[index].title + "#" + diarys[index].content + "#" + diarys[index].date + "@"
+            }
+            
         }
+        
+        
        
         //设定路径
         //let url: NSURL = NSURL(fileURLWithPath: "/Users/Shared/diary.txt")
