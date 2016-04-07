@@ -57,23 +57,28 @@ extension String {
         if NSData(contentsOfFile: url) != nil {
             var data = String(data: NSData(contentsOfFile: url)!, encoding: NSUTF8StringEncoding)!
              //print(data)
-            data.removeAtIndex(data.endIndex.predecessor())
-            let arrayString = data.componentsSeparatedByString("@")
-            //print(arrayString.count)
-            for index in 0...arrayString.count-1 {
-                //diarys.append(diary)
-                
-                //diary.title = arrayString[index].componentsSeparatedByString("#")[0]
-                //diary.content = arrayString[index].componentsSeparatedByString("#")[1]
-                //diary.date = arrayString[index].componentsSeparatedByString("#")[2]
-                //let tmp = diary
-                diarys.append(DiaryModel(title: arrayString[index].componentsSeparatedByString("#")[0], content: arrayString[index].componentsSeparatedByString("#")[1], date: arrayString[index].componentsSeparatedByString("#")[2]))
-                //diarys[index] = diary
-                
-                //print(diarys[0].content)
-                
-                
+            if(data != "")
+            {
+                data.removeAtIndex(data.endIndex.predecessor())
+                let arrayString = data.componentsSeparatedByString("@")
+                //print(arrayString.count)
+                for index in 0...arrayString.count-1 {
+                    //diarys.append(diary)
+                    
+                    //diary.title = arrayString[index].componentsSeparatedByString("#")[0]
+                    //diary.content = arrayString[index].componentsSeparatedByString("#")[1]
+                    //diary.date = arrayString[index].componentsSeparatedByString("#")[2]
+                    //let tmp = diary
+                    diarys.append(DiaryModel(title: arrayString[index].componentsSeparatedByString("#")[0], content: arrayString[index].componentsSeparatedByString("#")[1], date: arrayString[index].componentsSeparatedByString("#")[2]))
+                    //diarys[index] = diary
+                    
+                    //print(diarys[0].content)
+                    
+                    
+                }
             }
+            
+            
         }
       
         return diarys

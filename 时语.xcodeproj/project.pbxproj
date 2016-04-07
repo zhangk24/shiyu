@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E133ECA1CAAB1C4000A4576 /* shiyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shiyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E133ECA1CAAB1C4000A4576 /* 时语.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "时语.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E133ECD1CAAB1C4000A4576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E133ED21CAAB1C4000A4576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E133ED51CAAB1C4000A4576 /* shiyu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shiyu.xcdatamodel; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		7E133ECB1CAAB1C4000A4576 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E133ECA1CAAB1C4000A4576 /* shiyu.app */,
+				7E133ECA1CAAB1C4000A4576 /* 时语.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E133EC91CAAB1C4000A4576 /* shiyu */ = {
+		7E133EC91CAAB1C4000A4576 /* 时语 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E133EDF1CAAB1C4000A4576 /* Build configuration list for PBXNativeTarget "shiyu" */;
+			buildConfigurationList = 7E133EDF1CAAB1C4000A4576 /* Build configuration list for PBXNativeTarget "时语" */;
 			buildPhases = (
 				7E133EC61CAAB1C4000A4576 /* Sources */,
 				7E133EC71CAAB1C4000A4576 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = shiyu;
+			name = "时语";
 			productName = shiyu;
-			productReference = 7E133ECA1CAAB1C4000A4576 /* shiyu.app */;
+			productReference = 7E133ECA1CAAB1C4000A4576 /* 时语.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,11 +111,11 @@
 				TargetAttributes = {
 					7E133EC91CAAB1C4000A4576 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = MK2PUYTM7R;
+						DevelopmentTeam = S9G2L3L6R3;
 					};
 				};
 			};
-			buildConfigurationList = 7E133EC51CAAB1C4000A4576 /* Build configuration list for PBXProject "shiyu" */;
+			buildConfigurationList = 7E133EC51CAAB1C4000A4576 /* Build configuration list for PBXProject "时语" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E133EC91CAAB1C4000A4576 /* shiyu */,
+				7E133EC91CAAB1C4000A4576 /* 时语 */,
 			);
 		};
 /* End PBXProject section */
@@ -271,8 +271,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = shiyu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = varlar.win.shiyu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = crise.shiyu;
+				PRODUCT_NAME = "时语";
 			};
 			name = Debug;
 		};
@@ -283,15 +283,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = shiyu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = varlar.win.shiyu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = crise.shiyu;
+				PRODUCT_NAME = "时语";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E133EC51CAAB1C4000A4576 /* Build configuration list for PBXProject "shiyu" */ = {
+		7E133EC51CAAB1C4000A4576 /* Build configuration list for PBXProject "时语" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E133EDD1CAAB1C4000A4576 /* Debug */,
@@ -300,7 +300,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E133EDF1CAAB1C4000A4576 /* Build configuration list for PBXNativeTarget "shiyu" */ = {
+		7E133EDF1CAAB1C4000A4576 /* Build configuration list for PBXNativeTarget "时语" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E133EE01CAAB1C4000A4576 /* Debug */,
