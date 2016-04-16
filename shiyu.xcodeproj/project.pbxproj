@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1E82131CC1E96A0087688C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E82121CC1E96A0087688C /* AppDelegate.swift */; };
+		7E1E82181CC1E96A0087688C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E82161CC1E96A0087688C /* Main.storyboard */; };
+		7E1E821B1CC1E96A0087688C /* shiyu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E82191CC1E96A0087688C /* shiyu.xcdatamodeld */; };
+		7E1E821D1CC1E96A0087688C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E821C1CC1E96A0087688C /* Assets.xcassets */; };
+		7E1E82201CC1E96A0087688C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E821E1CC1E96A0087688C /* LaunchScreen.storyboard */; };
+		7E1E822A1CC1EAA80087688C /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E82281CC1EAA80087688C /* Diary.swift */; };
+		7E1E822E1CC1EACA0087688C /* DiaryEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E822B1CC1EAC90087688C /* DiaryEditViewController.swift */; };
+		7E1E822F1CC1EACA0087688C /* DiaryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E822C1CC1EACA0087688C /* DiaryListViewController.swift */; };
+		7E1E82301CC1EACA0087688C /* poem.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E1E822D1CC1EACA0087688C /* poem.json */; };
+		7E1E82321CC1EAD60087688C /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1E82311CC1EAD60087688C /* common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E1E820F1CC1E96A0087688C /* shiyu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shiyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1E82121CC1E96A0087688C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E1E82171CC1E96A0087688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1E821A1CC1E96A0087688C /* shiyu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shiyu.xcdatamodel; sourceTree = "<group>"; };
+		7E1E821C1CC1E96A0087688C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1E821F1CC1E96A0087688C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1E82211CC1E96A0087688C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1E82281CC1EAA80087688C /* Diary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		7E1E822B1CC1EAC90087688C /* DiaryEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEditViewController.swift; sourceTree = "<group>"; };
+		7E1E822C1CC1EACA0087688C /* DiaryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryListViewController.swift; sourceTree = "<group>"; };
+		7E1E822D1CC1EACA0087688C /* poem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = poem.json; sourceTree = "<group>"; };
+		7E1E82311CC1EAD60087688C /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1E820C1CC1E96A0087688C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1E82061CC1E96A0087688C = {
+			isa = PBXGroup;
+			children = (
+				7E1E82111CC1E96A0087688C /* shiyu */,
+				7E1E82101CC1E96A0087688C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1E82101CC1E96A0087688C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1E820F1CC1E96A0087688C /* shiyu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1E82111CC1E96A0087688C /* shiyu */ = {
+			isa = PBXGroup;
+			children = (
+				7E1E822B1CC1EAC90087688C /* DiaryEditViewController.swift */,
+				7E1E822C1CC1EACA0087688C /* DiaryListViewController.swift */,
+				7E1E822D1CC1EACA0087688C /* poem.json */,
+				7E1E82281CC1EAA80087688C /* Diary.swift */,
+				7E1E82121CC1E96A0087688C /* AppDelegate.swift */,
+				7E1E82161CC1E96A0087688C /* Main.storyboard */,
+				7E1E821C1CC1E96A0087688C /* Assets.xcassets */,
+				7E1E821E1CC1E96A0087688C /* LaunchScreen.storyboard */,
+				7E1E82211CC1E96A0087688C /* Info.plist */,
+				7E1E82191CC1E96A0087688C /* shiyu.xcdatamodeld */,
+				7E1E82311CC1EAD60087688C /* common.swift */,
+			);
+			path = shiyu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1E820E1CC1E96A0087688C /* shiyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1E82241CC1E96A0087688C /* Build configuration list for PBXNativeTarget "shiyu" */;
+			buildPhases = (
+				7E1E820B1CC1E96A0087688C /* Sources */,
+				7E1E820C1CC1E96A0087688C /* Frameworks */,
+				7E1E820D1CC1E96A0087688C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shiyu;
+			productName = shiyu;
+			productReference = 7E1E820F1CC1E96A0087688C /* shiyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1E82071CC1E96A0087688C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhangkuo;
+				TargetAttributes = {
+					7E1E820E1CC1E96A0087688C = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = MK2PUYTM7R;
+					};
+				};
+			};
+			buildConfigurationList = 7E1E820A1CC1E96A0087688C /* Build configuration list for PBXProject "shiyu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1E82061CC1E96A0087688C;
+			productRefGroup = 7E1E82101CC1E96A0087688C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1E820E1CC1E96A0087688C /* shiyu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1E820D1CC1E96A0087688C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1E82201CC1E96A0087688C /* LaunchScreen.storyboard in Resources */,
+				7E1E821D1CC1E96A0087688C /* Assets.xcassets in Resources */,
+				7E1E82301CC1EACA0087688C /* poem.json in Resources */,
+				7E1E82181CC1E96A0087688C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1E820B1CC1E96A0087688C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1E821B1CC1E96A0087688C /* shiyu.xcdatamodeld in Sources */,
+				7E1E82131CC1E96A0087688C /* AppDelegate.swift in Sources */,
+				7E1E82321CC1EAD60087688C /* common.swift in Sources */,
+				7E1E822E1CC1EACA0087688C /* DiaryEditViewController.swift in Sources */,
+				7E1E822F1CC1EACA0087688C /* DiaryListViewController.swift in Sources */,
+				7E1E822A1CC1EAA80087688C /* Diary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E1E82161CC1E96A0087688C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1E82171CC1E96A0087688C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1E821E1CC1E96A0087688C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1E821F1CC1E96A0087688C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1E82221CC1E96A0087688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E1E82231CC1E96A0087688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1E82251CC1E96A0087688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shiyu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = varlar.win.shiyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E1E82261CC1E96A0087688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shiyu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = varlar.win.shiyu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1E820A1CC1E96A0087688C /* Build configuration list for PBXProject "shiyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1E82221CC1E96A0087688C /* Debug */,
+				7E1E82231CC1E96A0087688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1E82241CC1E96A0087688C /* Build configuration list for PBXNativeTarget "shiyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1E82251CC1E96A0087688C /* Debug */,
+				7E1E82261CC1E96A0087688C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E1E82191CC1E96A0087688C /* shiyu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E1E821A1CC1E96A0087688C /* shiyu.xcdatamodel */,
+			);
+			currentVersion = 7E1E821A1CC1E96A0087688C /* shiyu.xcdatamodel */;
+			path = shiyu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7E1E82071CC1E96A0087688C /* Project object */;
+}

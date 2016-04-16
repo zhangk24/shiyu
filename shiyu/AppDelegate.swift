@@ -2,29 +2,28 @@
 //  AppDelegate.swift
 //  shiyu
 //
-//  Created by zhangkuo on 16/3/29.
+//  Created by zhangkuo on 16/4/16.
 //  Copyright © 2016年 zhangkuo. All rights reserved.
 //
 
 import UIKit
 import CoreData
 
-var diarys: [DiaryModel] = [DiaryModel]()
-//let url = NSHomeDirectory() + "/Documents/diary.txt"
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        //diarys = diarysData
-        //String.WriteFile(diarys)
-        diarys = String.ReadFile()
-       
+        if((NSUserDefaults.standardUserDefaults().boolForKey("IsFirstLaunch") as Bool!) == false){
+             importJSONData()
+
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "IsFirstLaunch")
+        }else{
+
+        }
         return true
     }
 
@@ -36,7 +35,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-        String.WriteFile(diarys)
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
@@ -51,9 +49,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
-        String.WriteFile(diarys)
-        //print("dd")
-        
     }
 
     // MARK: - Core Data stack
@@ -74,7 +69,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
         let coordinator = NSPersistentStoreCoordinator(managedObjectModel: self.managedObjectModel)
-        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("SingleViewCoreData.sqlite")
+        let url = self.applicationDocumentsDirectory.URLByAppendingPathComponent("Diary.sqlite")
         var failureReason = "There was an error creating or loading the application's saved data."
         do {
             try coordinator.addPersistentStoreWithType(NSSQLiteStoreType, configuration: nil, URL: url, options: nil)

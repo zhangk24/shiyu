@@ -19,8 +19,10 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var diaryContent: UITextView!
     
   
-    
-    var diary: DiaryModel?
+    var diary: Diary?
+    var addFlag = false
+
+   
     var dateLast: String = ""
     var titleLast: String = ""
     var contentLast: String = ""
@@ -33,8 +35,8 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
         
         
         
-        if (diary?.content == "") {
-            diaryTitle.text = ""
+        if (addFlag) {
+            diaryTitle.text = "新增"
             diaryContent.text = ""
             title = "编辑"
         } else {
@@ -44,15 +46,17 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
             
             
         }
-        
+        /*
         titleLast = (diary?.title)!
         contentLast = (diary?.content)!        
         dateLast = (diary?.date)!
         
         
        
-        
-        
+        diaryTitle.text = diary?.title
+        diaryContent.text = diary?.content
+        title = "编辑"
+        */
 
     
         
@@ -76,52 +80,6 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
     
     
     
-    
-    
-    /*
-    func textViewDidEndEditing(textView: UITextView) {
-        diary?.title = diaryTitle.text
-        diary?.content = diaryContent.text
-        
-    }
-*/
-    
-    /*
-    @IBAction func saveTapped(sender: AnyObject) {
-        diaryContent.resignFirstResponder()
-        if diary == nil {
-            diary = DiaryModel(title: diaryTitle.text, content: diaryContent.text, date: Date2String()!)
-            
-            
-            
-        } else {
-            diary?.title = diaryTitle.text
-            diary?.content = diaryContent.text
-            diary?.date = Date2String()!
-            
-        }
-      
-        
-    }
-*/
-    
-    
-    
-    
-    
-    //
-    /*
-    func textViewShouldReturn(textView: UITextView) -> Bool {
-        textView.resignFirstResponder()
-        return true
-    }
-    
-    
-    func textViewShouldEndEditing(textView: UITextView) -> Bool {
-        //print(diaryContent.text)
-        return true
-    }
-    */
     
     
     

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7E133EC91CAAB1C4000A4576"
-               BuildableName = "&#x65f6;&#x8bed;.app"
-               BlueprintName = "&#x65f6;&#x8bed;"
-               ReferencedContainer = "container:&#x65f6;&#x8bed;.xcodeproj">
+               BlueprintIdentifier = "7E1E820E1CC1E96A0087688C"
+               BuildableName = "shiyu.app"
+               BlueprintName = "shiyu"
+               ReferencedContainer = "container:shiyu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E133EC91CAAB1C4000A4576"
-            BuildableName = "&#x65f6;&#x8bed;.app"
-            BlueprintName = "&#x65f6;&#x8bed;"
-            ReferencedContainer = "container:&#x65f6;&#x8bed;.xcodeproj">
+            BlueprintIdentifier = "7E1E820E1CC1E96A0087688C"
+            BuildableName = "shiyu.app"
+            BlueprintName = "shiyu"
+            ReferencedContainer = "container:shiyu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E133EC91CAAB1C4000A4576"
-            BuildableName = "&#x65f6;&#x8bed;.app"
-            BlueprintName = "&#x65f6;&#x8bed;"
-            ReferencedContainer = "container:&#x65f6;&#x8bed;.xcodeproj">
+            BlueprintIdentifier = "7E1E820E1CC1E96A0087688C"
+            BuildableName = "shiyu.app"
+            BlueprintName = "shiyu"
+            ReferencedContainer = "container:shiyu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7E133EC91CAAB1C4000A4576"
-            BuildableName = "&#x65f6;&#x8bed;.app"
-            BlueprintName = "&#x65f6;&#x8bed;"
-            ReferencedContainer = "container:&#x65f6;&#x8bed;.xcodeproj">
+            BlueprintIdentifier = "7E1E820E1CC1E96A0087688C"
+            BuildableName = "shiyu.app"
+            BlueprintName = "shiyu"
+            ReferencedContainer = "container:shiyu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
