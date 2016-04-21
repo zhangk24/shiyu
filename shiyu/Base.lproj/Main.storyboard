@@ -85,16 +85,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Isb-Z7-cPh">
+                                <rect key="frame" x="533" y="81" width="42" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="截图"/>
+                                <connections>
+                                    <action selector="screenShot:" destination="bzd-H8-D8v" eventType="touchUpInside" id="Fa8-lk-vae"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="moE-5Z-Ha2" firstAttribute="top" secondItem="ZmK-Ud-FId" secondAttribute="bottom" constant="-44" id="C4Z-eI-FNT"/>
                             <constraint firstAttribute="leadingMargin" secondItem="7Cg-va-2v0" secondAttribute="leading" id="Erp-XQ-Poc"/>
                             <constraint firstAttribute="leadingMargin" secondItem="moE-5Z-Ha2" secondAttribute="leading" id="HPr-oy-1DX"/>
+                            <constraint firstItem="Isb-Z7-cPh" firstAttribute="top" secondItem="moE-5Z-Ha2" secondAttribute="bottom" constant="-30" id="JsN-3n-O2q"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7Cg-va-2v0" secondAttribute="trailing" id="Vzx-um-BEA"/>
                             <constraint firstAttribute="leadingMargin" secondItem="moE-5Z-Ha2" secondAttribute="leading" id="XXF-86-Deg"/>
                             <constraint firstItem="7Cg-va-2v0" firstAttribute="top" secondItem="moE-5Z-Ha2" secondAttribute="bottom" constant="22" id="cMi-nA-Jbt"/>
                             <constraint firstAttribute="trailingMargin" secondItem="moE-5Z-Ha2" secondAttribute="trailing" id="gsE-ai-npr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Isb-Z7-cPh" secondAttribute="trailing" constant="5" id="m6m-8H-oJu"/>
                             <constraint firstItem="9Gh-2d-JPI" firstAttribute="top" secondItem="7Cg-va-2v0" secondAttribute="bottom" constant="20" id="njf-9E-TVF"/>
                             <constraint firstItem="7Cg-va-2v0" firstAttribute="top" secondItem="ZmK-Ud-FId" secondAttribute="bottom" constant="69" id="nln-hH-PcM"/>
                         </constraints>

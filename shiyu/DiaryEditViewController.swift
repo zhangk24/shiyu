@@ -33,7 +33,7 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
         //diaryContent.delegate = self
         //diaryTitle.text = diary?.title
         
-        
+       
         
         if (addFlag) {
             diaryTitle.text = "新增"
@@ -74,6 +74,18 @@ class DiaryEditViewController: UIViewController, UITextViewDelegate {
     
     
     
+    @IBAction func screenShot(sender: UIButton) {
+        
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        self.view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        //Save it to the camera roll
+        UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+        
+        
+    }
     
     
     
